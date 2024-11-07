@@ -1,0 +1,81 @@
+/* bootstrap.css */
+* {
+   font-size: 14px;
+   line-height: 1.428;
+}
+
+/* style.css */
+* {
+   font-size: 16px;
+   line-height: 2;
+}
+
+
+.error{
+	color: #e73d4a;	
+}
+.message{
+	background-color: #fbe1e3;
+    border-color: #fbe1e3;
+    color: #e73d4a;
+    border-radius: 4px;
+    padding: 15px;
+}
+.scroll-x {
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+
+
+
+input[type="text"], input[type="tel"]
+{
+  font-size: 15px;
+}
+
+
+/*.table-fixedz tr {
+width: 100%;
+display: inline-table;
+table-layout: fixed;
+overflow-x: scroll;
+}
+
+.table-fixedz table{
+ height:500px;              
+ display: -moz-groupbox;    
+ overflow-x: scroll;
+}
+
+.table-fixedz tbody{
+  overflow: scroll;      
+  overflow-x: scroll;
+  height: 450px;            
+  width: auto;
+  position: absolute;
+}
+*/
+
+.table-fixedz tbody {
+  display:block;
+  max-height:450px;
+  overflow-y:scroll;
+}
+.table-fixedz thead, .table-fixedz tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+
+
+
+.highlight:hover, .table td:hover {
+  font-size: 30px;
+  
+}
+
+.highlight span.text {
+  font-size: 30px !important;  
+}
+
+
